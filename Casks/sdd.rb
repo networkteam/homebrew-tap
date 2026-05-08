@@ -4,22 +4,22 @@ cask "sdd" do
 
   on_macos do
     on_intel do
-      sha256 "fa798d18fdbe5ecca5e913035babdba77a9348cf766e46344d9ab55eea166f49"
+      sha256 "d93e7bc211e80fe66c085783c1d9845e82ecdfc7774fb7c53eaf87ce5b07484a"
       url "https://github.com/networkteam/sdd/releases/download/v#{version}/sdd_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2a8bb8d7b61d8910ce3686778b9adfbcb375d73cd69951a689a951d4b97fcdc8"
+      sha256 "190d9d1e5b0d06fd6d32bec23ff2cef7af33ebe34d331b076613d8f58b9d7601"
       url "https://github.com/networkteam/sdd/releases/download/v#{version}/sdd_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "e4abb8e2de3dba9c871f96f9824de21847d508fbd65044c1a8cf92d311d238ab"
+      sha256 "92ef84096af8bda77cd92e1081b1a38c44bfc781badddf4f02a6061a1eb9df52"
       url "https://github.com/networkteam/sdd/releases/download/v#{version}/sdd_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "19a9b197cbb856197a40dfdf63327538da854322bff86efa1b689e7710942479"
+      sha256 "b3da91c6f3dcffd382409788a948b9d803152aa89a2ed6fc974bcfbab11521e7"
       url "https://github.com/networkteam/sdd/releases/download/v#{version}/sdd_#{version}_linux_arm64.tar.gz"
     end
   end
